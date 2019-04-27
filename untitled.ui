@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>201</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>tree</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>first</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>length</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>width</string>
+     </property>
+    </item>
+   </item>
+   <item>
+    <property name="text">
+     <string>second</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>length</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>width</string>
+     </property>
+    </item>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
