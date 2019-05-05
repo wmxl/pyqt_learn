@@ -42,7 +42,7 @@ class Example(QWidget):
         grid.addWidget(titleEdit, 1, 1)
 
         grid.addWidget(author, 2, 0)
-        grid.addWidget(authorEdit, 1, 1)
+        grid.addWidget(authorEdit, 2, 1)
 
         grid.addWidget(review, 3, 0)
         grid.addWidget(reviewEdit, 3, 1, 5, 1)
